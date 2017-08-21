@@ -58,7 +58,7 @@ $modul_name_upper = MyModule::UpperCaseAll($modul_name);
 print MYFILE "		echo '<li '.\$selector_${modul_name}.'><a href=\"'.\$this->url->get().'${modul_name}/show\">${modul_name_upper} Show</a></li>';\n";
 }
 
-print MYFILE "      echo '<div id=\"logout\"><a href=\"'.\$this->url->get().'auth/logout\" style=\"color:#666666\">Logout</a></div>';";
+print MYFILE "		echo '<div id=\"logout\"><a href=\"'.\$this->url->get().'auth/logout\" style=\"color:#666666\">Logout</a></div>';\n";
 
 
 print MYFILE "	}\n\n";

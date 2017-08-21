@@ -16,8 +16,8 @@ $data_url ="http://localhost/workspace/timeservergen/timeserverdata/";
 #Database
 $database_host = "localhost";
 $database_username = "root";
-$database_password = "secret";
-$database_name = "rma";
+$database_password = "martini7";
+$database_name = "timeserver1.0";
 
 }
 

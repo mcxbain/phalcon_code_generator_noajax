@@ -220,6 +220,7 @@ table.DefaultListTable  th
 	border-style: solid;
 	border-color: #666666;
 	background-color: #dedede;
+	white-space:nowrap;
 }
 
 table.DefaultListTable  td 
